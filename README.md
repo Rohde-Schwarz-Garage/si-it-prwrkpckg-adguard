@@ -27,7 +27,7 @@ AdGuard Home hat eine Liste von Domains, die mit Werbung und Tracking verbunden 
 
 Ein Sinkhole-Server, auch als DNS-Sinkhole oder Internet-Sinkhole bekannt, dient dazu, den Netzwerkverkehr umzuleiten oder zu blockieren. Dies wird oft für Sicherheitszwecke verwendet, kann aber auch zum Blockieren von unerwünschter Werbung oder Tracking verwendet werden.  
 
-![Funktionsweise von AdGuard Home](rsc/Funktionsweise.png "https://www.enisa.europa.eu/topics/incident-response/glossary/dns-sinkhole")
+![Funktionsweise von AdGuard Home](img/Funktionsweise.png "https://www.enisa.europa.eu/topics/incident-response/glossary/dns-sinkhole")
 
 Zusätzlich zu Werbungslisten kann man Listen mit allen möglichen Seiten einfügen, die dann geblockt werden. Möchte man einzelne Ausnahmen einrichten, kann man sie auf der sog. "Allowlist" eintragen.
 
@@ -87,11 +87,11 @@ Alternativ zu diesem Weg kann man AdGuard auch über Snap installieren. Snap ist
 Im aktuellen Zustand ist AdGuard Home zwar installiert, aber um zu funktionieren, muss der Server zunächst konfiguriert werden.
 AdGuard hat im Hintergrund einen Webserver gestartet, der eine Konfigurationsseite bereitstellt. Gib hierfür einfach `https://localhost:3000` in die Adresszeile deines Browsers ein. Befindest du dich auf einem anderen PC, dann gibst du statt `localhost` die IP-Adresse des Pis ein (wie du diese erhältst, kannst du in der [Raspberry Pi-Einführung](../../../ge-it-prwrkpckg-raspberrypi#ip-adresse-herausfinden) nachlesen).
 
-![Config1.png](rsc/Config1.png)
+![Config1.png](img/Config1.png)
 
 Auf der folgenden Seite brauchst du keine Einstellungen zu ändern. Es kann kann aber interessant sein, sich die Informationen, die zu sehen sind, einmal durchzulesen.
 
-![Config2.ong](rsc/Config2.png)
+![Config2.ong](img/Config2.png)
 
 Im Anschluss musst du ein Admin-Konto anlegen, mit dem du dich später auf dem Dashboard anmelden kannst.
 
